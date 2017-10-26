@@ -1,0 +1,56 @@
+   <html>
+<head>
+<style>
+body{
+  background: black;
+  color: white;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  border: 400px solid black;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;    
+  border: 50px solid black;
+}
+.desc_img {
+  margin: 5px;
+}
+</style>
+</head>
+<body>
+<div class="container thumb">
+<div class="thumb" onMouseover="mouseoversound.playclip()">
+  <video loop id="video1" onmouseover="this.play()" onmouseout="this.pause()">
+    <source src="Posters_03.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div>
+
+<div class="thumb" onMouseover="mouseoversound.playclip()">
+  <video loop id="video2" onmouseover="this.play()" onmouseout="this.pause()">
+    <source src="Posters_02.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  </div>
+
+  <div class="thumb" onMouseover="mouseoversound.playclip()">
+  <video loop id="video3" onmouseover="this.play()" onmouseout="this.pause()">
+    <source src="Posters_01.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+  </div>
+</div> 
+
+<div class="container2 text">
+<div class="text">
+<p style="font-size:70px">a quick overview of my musical journey</font></p>
+</div>
+</div>
+</body>
+</html>
